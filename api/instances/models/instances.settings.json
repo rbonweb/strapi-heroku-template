@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "instances",
+  "info": {
+    "name": "Instances",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "required": true
+    },
+    "Name": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "colors": {
+      "via": "instance",
+      "model": "colors"
+    },
+    "images": {
+      "via": "instance",
+      "model": "images"
+    }
+  }
+}

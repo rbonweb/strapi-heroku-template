@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "colors",
+  "info": {
+    "name": "Colors"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "instance": {
+      "model": "instances",
+      "via": "colors"
+    },
+    "bg_primary_main_dark": {
+      "type": "string"
+    },
+    "primary_main_dark": {
+      "type": "string"
+    },
+    "primary_dark_color": {
+      "type": "string"
+    },
+    "primary_dark": {
+      "type": "string"
+    },
+    "bg_alt": {
+      "type": "string"
+    },
+    "bg_d_primary": {
+      "type": "string"
+    },
+    "bg_primary_dark_hover": {
+      "type": "string"
+    },
+    "bg_primary_hover": {
+      "type": "string"
+    },
+    "grey": {
+      "type": "string"
+    },
+    "bg_grey": {
+      "type": "string"
+    },
+    "black": {
+      "type": "string"
+    }
+  }
+}
