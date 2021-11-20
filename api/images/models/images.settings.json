@@ -12,8 +12,8 @@
   "pluginOptions": {},
   "attributes": {
     "instance": {
-      "model": "instances",
-      "via": "images"
+      "via": "images",
+      "model": "instances"
     },
     "landing_bg": {
       "model": "file",

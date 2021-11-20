@@ -16,7 +16,7 @@
       "type": "uid",
       "required": true
     },
-    "Name": {
+    "name": {
       "type": "string",
       "unique": true,
       "required": true

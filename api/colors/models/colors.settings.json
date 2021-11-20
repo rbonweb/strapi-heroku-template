@@ -12,8 +12,8 @@
   "pluginOptions": {},
   "attributes": {
     "instance": {
-      "model": "instances",
-      "via": "colors"
+      "via": "colors",
+      "model": "instances"
     },
     "bg_primary_main_dark": {
       "type": "string"
